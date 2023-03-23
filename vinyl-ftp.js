@@ -14,4 +14,4 @@ var conn = new ftp({
     secureOptions: {rejectUnauthorized: false}
 })
 fs.src( [ './dist/**' ], { buffer: false } )
-    .pipe( conn.dest( '/htdocs/gyar' ) );
+    .pipe( conn.dest( '/htdocs/kamatos' ) );
